@@ -1,5 +1,10 @@
 body {
   margin: 0px;
+  font-family: serif;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 .topnav {
@@ -31,5 +36,22 @@ body {
 }
 
 .main {
-  margin: 85px 10px;
+  margin: 90px 10px;
+}
+
+.paper {
+  font-size: 28px;
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 90%;
+}
+
+.paper-title {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.paper-author-me {
+  font-weight: 600;
+  color: rgb(5, 97, 11);
 }
