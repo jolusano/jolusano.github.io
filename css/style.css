@@ -7,6 +7,15 @@ h1 {
   font-size: 40px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .topnav {
   background-color: #333;
   text-align: center;
@@ -56,6 +65,55 @@ h1 {
   color: rgb(5, 97, 11);
 }
 
-.formal-education {
+.education {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.education > div {
+  width: 50%;
+}
+.education > div > div {
+  padding: 0px 50px;
+  /* width: 45%; */
   font-size: 20px;
+}
+
+.education ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.university-degree .logo {
+  height: 55px;
+  float: left;
+  margin-right: 10px;
+}
+
+.university-degree p {
+  padding-top: 6px;
+}
+
+.certifications {
+  margin-top: 50px;
+}
+
+.mathworks-associate .logo {
+  height: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+.mathworks-associate p {
+  padding-top: 10px;
+}
+
+.logo {
+  height: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+.logo + h3 {
+  padding-top: 10px;
 }
