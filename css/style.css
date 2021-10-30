@@ -7,6 +7,7 @@ body {
 
 h1 {
   font-size: 40px;
+  margin-top: 18px;
 }
 
 h2 {
@@ -20,11 +21,7 @@ a {
 
 .topnav {
   background-color: #333;
-  text-align: center;
   font-size: 0px;
-  position: fixed;
-  top: 0px;
-  width: 100%;
 }
 
 .topnav a {
@@ -32,7 +29,9 @@ a {
   font-size: 30px;
   text-decoration: none;
   padding: 18px 0px;
-  width: 16.667%;
+  min-width: 200px;
+  text-align: center;
+  width: 16.66%;
   display: inline-block;
 }
 
@@ -47,7 +46,7 @@ a {
 }
 
 .main {
-  margin: 90px 10px;
+  margin: 0px 10px;
 }
 
 .paper {
